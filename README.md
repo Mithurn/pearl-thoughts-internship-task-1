@@ -1,4 +1,8 @@
+GitHub Repository: https://github.com/Mithurn/pearl-thoughts-internship-task-1
 
+Loom Demo: https://www.loom.com/share/1d62b1ffa9dc4ff1b9fa643784577dc0?sid=0c23e66d-a1f0-4c92-a9cd-cd3f7dd8098c
+
+Live Demo (Vercel): https://shedula-six.vercel.app/login
 ---
 
 ## 🧑‍💻 How It Works
