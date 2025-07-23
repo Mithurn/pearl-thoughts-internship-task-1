@@ -4,12 +4,14 @@ import { useRouter } from "next/navigation";
 import Logo from "../components/Logo";
 import React, { useState } from "react";
 
+type LoginForm = { login: string; password?: string };
+
 export default function LoginPage() {
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm<LoginForm>();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
-  const onSubmit = (data: any) => {
+  const onSubmit = (data: LoginForm) => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
